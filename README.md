@@ -136,3 +136,4 @@
 [Star 本项目](https://github.com/jnMetaCode/ai-coding-guide) · [提交 Issue](https://github.com/jnMetaCode/ai-coding-guide/issues) · [贡献内容](https://github.com/jnMetaCode/ai-coding-guide/pulls)
 
 </div>
+
