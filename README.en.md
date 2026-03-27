@@ -22,9 +22,9 @@
 ## Getting Started
 
 **New here?** Three steps:
-1. Read [Prompt Engineering](common/prompting.md) — learn how to talk to AI coding tools
-2. Pick your tool → read its [Quick Start](#-9-tool-guides) section
-3. Read [Task Decomposition](common/task-decomposition.md) — learn how to break work into AI-sized chunks
+1. Read [Prompt Engineering](common/prompting.en.md) — learn how to talk to AI coding tools
+2. Pick your tool → read its [Quick Start](#9-tool-guides) section
+3. Read [Task Decomposition](common/task-decomposition.en.md) — learn how to break work into AI-sized chunks
 
 **Already using AI tools?** Jump to: [Advanced Tips](#-9-tool-guides) · [Multi-Tool Workflows](#-multi-tool-workflows) · [Ecosystem](#-ecosystem)
 
@@ -34,15 +34,15 @@
 
 | Tool | Type | Highlights |
 |------|------|-----------|
-| [**Claude Code**](claude-code/) | CLI Agent | 66 tips, Agent + Skill + Hook workflows |
-| [**Cursor**](cursor/) | IDE | .cursorrules config, Composer Agent mode |
-| [**GitHub Copilot**](copilot/) | IDE Plugin | Inline completion + Agent mode + custom instructions |
-| [**OpenClaw**](openclaw/) | AI Agent Framework | 338k Stars, multi-platform + Skills + Cron automation |
-| [Windsurf](windsurf/) | IDE | Cascade Agent, automatic context |
-| [Gemini CLI](gemini-cli/) | CLI | By Google, large codebase analysis |
-| [Kiro](kiro/) | IDE | By AWS, spec-driven development |
-| [Aider](aider/) | CLI | Git-native, supports almost any LLM |
-| [Trae](trae/) | IDE | By ByteDance, free Claude/GPT access |
+| [**Claude Code**](claude-code/README.en.md) | CLI Agent | 66 tips, Agent + Skill + Hook workflows |
+| [**Cursor**](cursor/README.en.md) | IDE | .cursorrules config, Composer Agent mode |
+| [**GitHub Copilot**](copilot/README.en.md) | IDE Plugin | Inline completion + Agent mode + custom instructions |
+| [**OpenClaw**](openclaw/README.en.md) | AI Agent Framework | 338k Stars, multi-platform + Skills + Cron automation |
+| [Windsurf](windsurf/README.en.md) | IDE | Cascade Agent, automatic context |
+| [Gemini CLI](gemini-cli/README.en.md) | CLI | By Google, large codebase analysis |
+| [Kiro](kiro/README.en.md) | IDE | By AWS, spec-driven development |
+| [Aider](aider/README.en.md) | CLI | Git-native, supports almost any LLM |
+| [Trae](trae/README.en.md) | IDE | By ByteDance, free Claude/GPT access |
 
 > Every guide follows the same structure: **Core Concepts → Quick Start → Prompt Tips → Advanced Usage → Config Templates**
 
@@ -54,13 +54,13 @@ These apply regardless of which tool you use:
 
 | Topic | What it solves |
 |-------|---------------|
-| [Prompt Engineering](common/prompting.md) | Prompt techniques specific to AI coding — not generic prompt engineering |
-| [Task Decomposition](common/task-decomposition.md) | Breaking large tasks into AI-manageable pieces |
-| [Code Review](common/code-review.md) | Best practices for AI-assisted code review |
-| [Debugging](common/debugging.md) | Systematic debugging methodology with AI |
-| [Context Management](common/context-management.md) | Managing the context window to prevent AI from "getting dumber" |
-| [Testing Strategy](common/testing.md) | Writing tests with AI — approaches and pitfalls |
-| [Security](common/security.md) | Security risks in AI-assisted coding and how to mitigate them |
+| [Prompt Engineering](common/prompting.en.md) | Prompt techniques specific to AI coding — not generic prompt engineering |
+| [Task Decomposition](common/task-decomposition.en.md) | Breaking large tasks into AI-manageable pieces |
+| [Code Review](common/code-review.en.md) | Best practices for AI-assisted code review |
+| [Debugging](common/debugging.en.md) | Systematic debugging methodology with AI |
+| [Context Management](common/context-management.en.md) | Managing the context window to prevent AI from "getting dumber" |
+| [Testing Strategy](common/testing.en.md) | Writing tests with AI — approaches and pitfalls |
+| [Security](common/security.en.md) | Security risks in AI-assisted coding and how to mitigate them |
 
 ---
 
@@ -70,9 +70,9 @@ The real productivity gains come from combining tools, not using one in isolatio
 
 | Workflow | Description |
 |----------|-------------|
-| [Claude Code + Cursor](workflows/claude-code-cursor.md) | Claude Code for architecture & complex refactoring, Cursor for daily coding |
-| [Claude Code + Copilot](workflows/claude-code-copilot.md) | Claude Code for agentic tasks, Copilot for inline completions |
-| [Tool Selection Guide](workflows/tool-selection.md) | Which tool for which scenario — one table to rule them all |
+| [Claude Code + Cursor](workflows/claude-code-cursor.en.md) | Claude Code for architecture & complex refactoring, Cursor for daily coding |
+| [Claude Code + Copilot](workflows/claude-code-copilot.en.md) | Claude Code for agentic tasks, Copilot for inline completions |
+| [Tool Selection Guide](workflows/tool-selection.en.md) | Which tool for which scenario — one table to rule them all |
 
 ---
 
@@ -93,7 +93,7 @@ Learn the tools → Inject methodologies → Load expert roles → Orchestrate r
 | [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | Orchestration | YAML-based multi-role collaboration for complex tasks |
 | [shellward](https://github.com/jnMetaCode/shellward) | Safety | Prevent AI agents from running dangerous commands or leaking sensitive data |
 
-> [Full ecosystem setup guide →](ecosystem.md)
+> [Full ecosystem setup guide →](ecosystem.en.md)
 
 ---
 
