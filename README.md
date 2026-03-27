@@ -128,6 +128,8 @@ AI 编程工具的模型能力已经很强了，但大多数人只用到了 10% 
 | [agency-orchestrator](https://github.com/jnMetaCode/agency-orchestrator) | 🔗 编排 | 用 YAML 让多个角色协作完成复杂任务 |
 | [shellward](https://github.com/jnMetaCode/shellward) | 🛡️ 安全 | 防止 AI Agent 执行危险命令、泄露敏感数据 |
 
+👉 **[完整安装教程和组合使用指南 →](ecosystem.md)**
+
 ---
 
 <div align="center">
