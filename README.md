@@ -12,7 +12,6 @@
 - [覆盖工具](#覆盖工具)
 - [通用技巧](#通用技巧)
 - [多工具协作工作流](#多工具协作工作流)
-- [社区工作流框架](#社区工作流框架)
 - [快速开始](#快速开始)
 - [贡献](#贡献)
 - [相关项目](#相关项目)
@@ -74,20 +73,6 @@ AI 编程工具的模型能力已经很强了，但大多数人只用到了 10% 
 
 ---
 
-## 社区工作流框架
-
-这些开源项目为 AI 编程工具提供了系统化的工作方法论：
-
-| 框架 | 特点 | 中文版 |
-|------|------|:---:|
-| [superpowers](https://github.com/obra/superpowers) | TDD 优先、铁律验证、完整计划审查 | [superpowers-zh](https://github.com/jnMetaCode/superpowers-zh) |
-| [Everything Claude Code](https://github.com/anthropics/everything-claude-code) | 本能评分、AgentShield、多语言规则 | — |
-| [BMAD-METHOD](https://github.com/bmadcode/BMAD-METHOD) | 完整 SDLC、Agent 角色、多平台 | — |
-
-> 如果你需要 AI 编程的专业角色库，可以看 [agency-agents-zh](https://github.com/jnMetaCode/agency-agents-zh)（187 个 AI 专家角色）。
-
----
-
 ## 快速开始
 
 **第一次用 AI 编程工具？** 从这里开始：
@@ -101,7 +86,7 @@ AI 编程工具的模型能力已经很强了，但大多数人只用到了 10% 
 
 1. 你用的工具的"进阶技巧"章节
 2. [多工具协作工作流](workflows/) — 组合使用效率翻倍
-3. [社区工作流框架](#社区工作流框架) — 给 AI 注入方法论
+3. [相关项目](#相关项目) — 方法论、专家角色、多角色编排
 
 ---
 
@@ -115,12 +100,14 @@ AI 编程工具的模型能力已经很强了，但大多数人只用到了 10% 
 
 ## 致谢
 
-本指南参考了以下优秀的开源项目（均为 MIT 许可）：
+本指南参考了以下优秀的开源项目：
 
 - [claude-code-best-practice](https://github.com/shanraisshan/claude-code-best-practice) — Claude Code 最佳实践
 - [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) — Cursor 规则集合
 - [awesome-copilot](https://github.com/github/awesome-copilot) — GitHub Copilot 官方资源
 - [gemini-cli-tips](https://github.com/addyosmani/gemini-cli-tips) — Gemini CLI 技巧
+- [Everything Claude Code](https://github.com/anthropics/everything-claude-code) — 本能评分、AgentShield、多语言规则
+- [BMAD-METHOD](https://github.com/bmadcode/BMAD-METHOD) — 完整 SDLC、Agent 角色、多平台
 
 ---
 
